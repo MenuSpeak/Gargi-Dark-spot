@@ -9,6 +9,43 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap"
         rel="stylesheet">
     <style>
+
+
+
+    /* Important Notice */
+    .important-notice {
+      background: rgba(255, 204, 102, 0.1);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      border: 1px solid rgba(255, 204, 102, 0.2);
+    }
+
+    .notice-title {
+      font-family: var(--ff-heading);
+      color: var(--gold2);
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .notice-content {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    .notice-item {
+      margin-bottom: 8px;
+      padding-left: 10px;
+      border-left: 2px solid rgba(255, 204, 102, 0.3);
+    }
+
+
+
+        
         /* Tabs Navigation - Category Buttons */
         .tabs-container {
             position: relative;
@@ -1138,6 +1175,27 @@
             </div>
         </div>
 
+
+  <!-- Important Notice -->
+    <div class="important-notice">
+      <div class="notice-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+          <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
+          <path d="M12 8v4"></path>
+          <path d="M12 16h.01"></path>
+        </svg>
+        Important Notice
+      </div>
+      <div class="notice-content">
+        <div class="notice-item">👉 Per beer bottle extra ₹30 charges applicable.</div>
+        <div class="notice-item">👉 प्रत्येक बिअर बाटलीवर ₹30 अतिरिक्त शुल्क आकारले जाईल.</div>
+        <!-- <div class="notice-item">थाळीतील एक्स्ट्रा पदार्थ घेतल्यास चार्जेस लागतील</div>
+        <div class="notice-item">सर्व मसाले घरगुती पद्धतीने तयार केलेले आहे</div>
+        <div class="notice-item">बल्क क्वांटिटी ऑर्डर स्वीकारल्या जातील</div>
+        <div class="notice-item">कोल्ड्रिंक, आईस्क्रीम पाणी बॉटल, मिळेल</div> -->
+      </div>
+    </div>
+        
         <!-- Main Menu -->
         <main class="menu">
             <div class="menu-head">
@@ -1338,6 +1396,7 @@
   {"id":30,"cat":"VEG STARTER","name":"Mashrum Tikka / मशरूम टिक्का","price":"₹150","desc":"Grilled mushroom skewers","tags":["Veg","Starter","Tandoori"],"img":"img/mushroom_tikka.jpg"},
   {"id":31,"cat":"VEG STARTER","name":"Panir Pakoda / पनीर पकौड़ा","price":"₹120","desc":"Paneer fritters","tags":["Veg","Starter","Snack"],"img":"img/paneer_pakoda.jpg"},
   {"id":32,"cat":"VEG STARTER","name":"Cheese Pakoda / चीज़ पकौड़ा","price":"₹160","desc":"Cheese fritters","tags":["Veg","Starter","Snack"],"img":"img/cheese_pakoda.jpg"},
+ {"id":500,"cat":"VEG STARTER","name":"Paneer Popcorn / पनीर पोपकॉन","price":"₹180","desc":"Crispy paneer Popcorn","tags":["Veg","Starter"],"img":"img/paneer_Popcorn.jpg"},
 
   {"id":33,"cat":"NON-VEG STARTER","name":"Egg Boil / एग बॉयल","price":"₹40","desc":"Boiled egg","tags":["Non-Veg","Starter","Egg"],"img":"img/boiled_egg.jpg"},
   {"id":34,"cat":"NON-VEG STARTER","name":"Masala Omlette / मसाला ऑमलेट","price":"₹70","desc":"Spiced egg omelette","tags":["Non-Veg","Starter","Egg"],"img":"img/masala_omelette.jpg"},
@@ -1356,6 +1415,7 @@
   {"id":47,"cat":"NON-VEG STARTER","name":"Chicken Pahadi Kabab / चिकन पहाड़ी कबाब","price":"₹280","desc":"Herbed chicken kebabs","tags":["Non-Veg","Starter","Tandoori"],"img":"img/chicken_pahadi_kabab.jpg"},
   {"id":48,"cat":"NON-VEG STARTER","name":"Chicken Shik Kabab / चिकन शिक कबाब","price":"₹240","desc":"Minced chicken kebabs on skewer","tags":["Non-Veg","Starter","Tandoori"],"img":"img/chicken_shik_kabab.jpg"},
   {"id":49,"cat":"NON-VEG STARTER","name":"Chicken Fry / चिकन फ्राय","price":"₹150","desc":"Fried chicken pieces","tags":["Non-Veg","Starter"],"img":"img/chicken_fry.jpg"},
+  {"id":501,"cat":"NON-VEG STARTER","name":"Chicken Popcorn / चिकन पोपकॉन","price":"₹280","desc":"Crispy chicken Popcorn","tags":["Non-Veg","Starter"],"img":"img/chicken_Popcorn.jpg"},
 
   {"id":50,"cat":"FISH STARTER","name":"Surmai Tava & Rava Fry / सुरमई तवा और रवा फ्राय","price":"₹300","desc":"King fish fry (pan & semolina coated)","tags":["Non-Veg","Starter","Seafood"],"img":"img/surmai_fry.jpg"},
   {"id":51,"cat":"FISH STARTER","name":"Poplet Rava & Tava Fry / पॉपलट रवा और तवा फ्राय","price":"₹350","desc":"Pomfret fry (semolina coated)","tags":["Non-Veg","Starter","Seafood"],"img":"img/pomfret_fry.jpg"},
